@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: "Istok Web", sans-serif;
+    color: #333;
+    background-color: #fff;
+    line-height: 1.6;
+}
+
+header{
+    background-color: #f5f5f5;
+    padding: 40px 20px; 
+    text-align: center;
+    border: 2px solid #ddd;
+  
+}
+
+.encabezado{
+    width: 80vw;
+}
+
+.titulo-principal{
+    font-family: 'Bricolage Grotesque';
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    line-height: 1;
+}
+
+.subtitulo{
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.descripcion-encabezado{
+    font-size: 14px;
+    color: #666;
+}
+
+main{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+/* SECCIONES */
+
+.seccion-menu{
+    margin-bottom: 60px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.titulo-seccion{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.linea-titulo{
+    width: 60px;
+    height: 2px;
+    background-color: #d4af37;
+    margin-bottom: 15px;
+}
+
+/* articulos */
+
+.articulos-contenedor{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.item-menu{
+    display: flex;
+    gap: 30px;
+    padding: 20px 0;
+    border-bottom: 1px solid #e8e8e8;
+    justify-content: space-between;
+}
+
+.nombre-item{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.descripcion-item{
+    font-size: 14px;
+    
+}
+
